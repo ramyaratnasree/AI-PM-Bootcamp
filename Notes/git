@@ -1,0 +1,35 @@
+# Git
+
+## What problem does Git solve?
+
+Allows developers to track changes, collaborate safely, and restore previous versions of a project.
+
+## Key Concepts
+
+- Repository
+- Commit
+- Branch
+- Merge
+
+## Mental Model
+
+Working Directory
+↓
+Staging Area
+↓
+Commit
+↓
+GitHub
+
+## Commands I Used
+
+git status
+git add .
+git commit -m "..."
+git push
+
+## Things I Learned
+
+- Git doesn't track empty folders.
+- A commit is a snapshot.
+- The staging area lets me choose what goes into the next commit.
