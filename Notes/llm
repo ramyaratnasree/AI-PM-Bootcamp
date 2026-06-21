@@ -1,0 +1,15 @@
+# LLM
+## What is LLM?
+An LLM (Large Language Model) is a computer program that can read, understand, and write text just like a human.Think of it as a super-powered autocomplete for sentences.
+## How It Works
+It reads a lot: It scans billions of pages of text from books, articles, and the internet.
+It learns patterns: It figures out which words usually follow other words.
+It predicts text: When you type a prompt, it guesses the best next words to answer your question.
+## What It Can Do
+Summarize: Shorten a long article into a brief paragraph
+Write: Create emails, stories, or computer code.
+Translate: Swap text instantly between different languages
+Brainstorm: Give you ideas for projects or recipes.
+## What It Cannot Do
+It doesn't think: It does not actually understand concepts or feel emotions.
+It can guess wrong: It just matches patterns, which means it can sometimes state incorrect facts with absolute confidence.
