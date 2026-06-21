@@ -1,0 +1,57 @@
+# Structured Outputs
+## What are they?
+Structured outputs refer to making AI models return responses in a predictable, machine-readable format (like JSON or XML) rather than free-form prose.
+## Why It Matters?
+When you're building applications, you don't want the AI to say "Sure! Here are the results..." — you want clean data you can immediately use in your code. Structured outputs solve this.
+## How It Works?
+Without structured outputs:
+User: Extract the name and age from this text: "John is 30 years old."
+AI: "The name is John and the age is 30."
+You'd have to parse that sentence yourself — fragile and error-prone.
+
+With structured outputs:
+json{ "name": "John", "age": 30 }
+Ready to use directly in your app.
+
+## Common Techniques
+1. Prompt-based — You instruct the model in your prompt:
+"Respond only in JSON with keys: name, age. No extra text."
+Simple but unreliable; the model might still add prose.
+
+2. JSON Schema / Response Format — APIs like OpenAI and Anthropic let you pass a schema the model must conform to. The output is guaranteed to match your structure.
+
+3. Tool/Function Calling — You define a "function" with typed parameters, and the model fills them in. This is the most robust method and works well for agents.
+
+## Use Cases
+Use Case
+Example 
+Output
+[Data extraction: Pull fields from documents or emails
+Classification { "sentiment": "positive", "confidence": 0.92 }]
+
+[Form filling: Populate structured records from free text
+Agent actions Model decides which tool to call and with what args
+API responses Power a backend endpoint with AI-generated data]
+
+In the Anthropic API specifically
+You can use tool use (function calling) to get structured outputs. You define a tool with an input schema, and Claude will call it with structured arguments:
+javascripttools: [{
+  name: "extract_person",
+  input_schema: {
+    type: "object",
+    properties: {
+      name: { type: "string" },
+      age:  { type: "integer" }
+    },
+    required: ["name", "age"]
+  }
+}]
+Claude will respond with a tool_use block containing valid, typed JSON matching your schema — no parsing guesswork needed.
+
+## Key Benefits
+Reliability — No more regex-ing AI responses
+Type safety — Know exactly what fields and types to expect
+Composability — Chain AI outputs directly into other systems
+Validation — Schemas enforce constraints (required fields, enums, ranges)
+
+Structured outputs are fundamental to building robust, production-grade AI applications. 

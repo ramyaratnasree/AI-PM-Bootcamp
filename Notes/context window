@@ -1,0 +1,11 @@
+# Context Window
+## What is Context Window?
+A context window is an LLM’s short-term memory.It is the exact amount of text the model can read, remember, and look at at the exact same time when answering your question.
+## The Brain Metaphor
+Think of it like a desk space where you do your work:
+Small window: A tiny desk. You can only fit a single page of text. If you want to read page two, you have to throw page one into the trash. The computer forgets what happened at the start of the chat.
+Large window: A massive desk. You can spread out an entire book, multiple files, and all your past notes at once. The computer remembers everything you said hours ago.
+## How It Works in Practice
+Everything counts: The window holds your current question, all the previous messages in that chat, and the answers the AI gave you.
+The "Drop-off": If your conversation gets too long and exceeds the window limit, the LLM will literally "forget" the earliest messages to make room for new ones.
+The limit unit: Context windows are measured in tokens (the tiny text chunks we discussed).

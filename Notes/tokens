@@ -1,0 +1,10 @@
+# Tokens
+## What are Tokens?
+A token is a tiny piece of text that an LLM uses to read and write.Think of tokens as the building blocks of language for a computer. 
+While humans read whole words, computers break those words down into smaller, bite-sized chunks.
+## How It Works
+Not always a full word: A token can be a single letter, a syllable, a whole word, or even a punctuation mark.
+The rule of thumb: On average, one token is about 4 characters long, or about 0.75 words. Example: The word "fantastic" might be split by the computer into three tokens: ["fan", "tas", "tic"]. A short word like "the" is usually just one token: ["the"].
+## Why Tokens Matter
+They cost money: When you use an LLM, companies charge you based on how many tokens you send (your prompt) and how many tokens you get back (the response).
+They limit memory: LLMs have a "context window," which is a strict limit on how many tokens they can remember at one time during a conversation.

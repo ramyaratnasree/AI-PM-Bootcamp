@@ -1,0 +1,19 @@
+# LLM's Temperature
+## What is temperature?
+In an LLM, temperature is a setting that controls how creative or predictable the AI's answers will be.
+Think of it as a "creativity dial" that ranges from 0 to 2:
+
+Low Temperature (0 to 0.3)
+The Vibe: Serious, strict, and factual.How it works: The AI plays it completely safe. It looks at the most likely next word and picks it every single time. If you ask the exact same question twice, you will get the exact same answer.
+Best for: Coding, math, summarizing data, and answering strict factual questions.
+
+Medium Temperature (0.4 to 0.7)
+The Vibe: Balances creativity and coherence. This is the safest default for everyday conversation.
+Best for: Customer support bots and general writing assistance.
+
+High Temperature (0.8 to 1.2+)
+The Vibe: Creative, adventurous, and random.How it works: The AI is allowed to take risks. Instead of picking the most obvious next word, it will deliberately choose less common words to see where they lead.
+Best for: Brainstorming ideas, writing poetry, making up stories, or marketing copy.
+
+The Danger Zone (1.5 -2.0)
+The Vibe: The model becomes too random. It will start picking words that make no sense together, resulting in complete gibberish or absolute nonsense.
