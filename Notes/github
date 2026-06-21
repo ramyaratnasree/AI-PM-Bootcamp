@@ -1,0 +1,115 @@
+# GitHub
+
+## What is GitHub?
+
+GitHub is a cloud platform that hosts Git repositories. While Git tracks changes locally, GitHub stores repositories online and enables collaboration.
+
+## Why GitHub?
+
+GitHub allows me to:
+* Back up my projects
+* Share my work publicly
+* Collaborate with others
+* Review changes through Pull Requests
+* Track work using Issues and Projects
+* Build a professional portfolio
+
+For my AI PM journey, GitHub is both a backup and a public portfolio showcasing my learning and products.
+
+## Key Concepts
+### Repository
+A GitHub repository is the online version of a Git repository.
+
+### Remote Repository
+The copy of my project stored on GitHub.
+
+My local repository and remote repository stay synchronized using:
+
+git push
+git pull
+
+### Clone
+Downloads a GitHub repository to a local machine.
+
+git clone <repository-url>
+
+### Pull Request (PR)
+A Pull Request is a request to merge changes from one branch into another after review.
+
+Typical workflow:
+
+Create branch
+      ↓
+Make changes
+      ↓
+Push branch
+      ↓
+Open Pull Request
+      ↓
+Review
+      ↓
+Merge
+
+### Issues
+GitHub Issues are used to track:
+* Bugs
+* Features
+* Tasks
+* Improvements
+
+Example:
+
+* Add resume parser
+* Fix login bug
+* Improve onboarding
+
+### Projects
+
+GitHub Projects provide Kanban-style boards to organize work.
+
+Typical columns:
+
+* Backlog
+* Todo
+* In Progress
+* Review
+* Done
+
+### GitHub Actions
+
+GitHub Actions automate workflows such as:
+
+* Running tests
+* Deploying applications
+* Building documentation
+
+## My AI PM Workflow
+
+Learn
+    ↓
+Take Notes
+    ↓
+Write PRD
+    ↓
+Build Product
+    ↓
+Commit Changes
+    ↓
+Push to GitHub
+    ↓
+Showcase Portfolio
+
+## What I Learned
+
+* GitHub is not Git.
+* GitHub hosts Git repositories online.
+* It supports collaboration, project management, and portfolio building.
+* My AI PM Bootcamp repository documents both my learning and product-building journey.
+
+## Questions to Explore
+
+* GitHub Discussions
+* GitHub Pages
+* GitHub Actions
+* Repository templates
+* GitHub Projects for product management
