@@ -164,22 +164,22 @@ so I can immediately apply.
 
 # 10. MVP Scope
 ## Included
-✅ Resume Upload
-✅ Resume Parsing
-✅ Extract Skills
-✅ Capture User Preferences
-✅ Import Job Description
-✅ Match Resume vs JD
-✅ Match Score
-✅ Missing Skills
-✅ Tailored Resume
+* Resume Upload
+* Resume Parsing
+* Extract Skills
+* Capture User Preferences
+* Import Job Description
+* Match Resume vs JD
+* Match Score
+* Missing Skills
+* Tailored Resume
 
 ## Not Included
-❌ Interview preparation
-❌ Cover letter generation
-❌ Application tracking
-❌ Networking
-❌ LinkedIn optimization
+* Interview preparation
+* Cover letter generation
+* Application tracking
+* Networking
+* LinkedIn optimization
 
 These can be future releases.
 
@@ -199,52 +199,40 @@ System extracts:
 ### Preference Collection
 Capture:
 
-Role
-Location
-Remote/Hybrid
-Salary
-Experience Level
-Industry
+* Role
+* Location
+* Remote/Hybrid
+* Salary
+* Experience Level
 
 ### Job Matching
+
 Input
 
-Resume
-
-*Preferences
-*Job Description
+* Resume
+* Preferences
+* Job Description
 
 Output
-Match %
-Reasons
-Recommendation
+
+* Match %
+* Reasons
+* Recommendation
 
 Example
-
-Match Score
-87%
-
-Strong Match
-
-Reasons:
-✓ Product Strategy
-✓ Roadmapping
-✓ AI Products
-
-Missing:
-Marketplaces
-SQL
-A/B Testing
+Match Score - 87% Strong Match
+Reasons: Product Strategy, Roadmapping, AI Products
+Missing: Marketplaces, SQL, A/B Testing
 
 ### Resume Tailoring
 
 System should:
 
-Recommend keywords
-Improve bullet points
-Highlight relevant experience
-Preserve truthful information
-Never fabricate experience.
+* Recommend keywords
+* Improve bullet points
+* Highlight relevant experience
+* Preserve truthful information
+* Never fabricate experience.
 
 # 12. Non-Functional Requirements
 
@@ -254,6 +242,7 @@ Security: Encrypted resumes, Delete user data on request
 Privacy: No resumes used for training without consent
 
 # 13. User Flow
+
 Landing Page
 ↓
 Upload Resume
