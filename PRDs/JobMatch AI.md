@@ -45,7 +45,8 @@ Most of this work is repetitive and can be assisted by AI.
 # 5. Target Users
 
 ## Primary Users
-
+See Projects\JobMatch AI\User_Personas.md for full profiles.
+Primary persona: **Sarah Chen** (laid-off PM, high-volume applicant).
 Professionals with 3–8 years of experience actively looking for jobs.
 
 Examples
@@ -250,30 +251,33 @@ Download Resume
 ↓
 Apply
 
-# 14. Metrics
+# 14. Competitive Analysis
+See Projects\JobMatch AI\Competitive_Analysis.md for full analysis.
+Key insight: the market gap is **decision support**, not faster applying.
 
-Business Metrics
+# 15. Metrics
+North Star Metric:
+% of users who tailored ≥3 resumes and returned to the product within 7 days.
 
+Business Metrics:
 * Daily Active Users
 * Resume uploads
 * Tailored resumes generated
 * Returning users
 
-User Metrics
-
+User Metrics:
 * Time spent finding jobs
 * Average match score
 * Applications submitted
 * Interview invitations (self-reported)
 
-AI Metrics
-
+AI Metrics:
 * Resume parsing accuracy
 * Skill extraction accuracy
 * Job matching accuracy
 * Resume tailoring quality (thumbs up/down)
 
-# 15. Risks
+# 16. Risks
 
 * AI may incorrectly evaluate job fit.
 * Generated resumes may over-optimize keywords while reducing readability.
@@ -286,7 +290,7 @@ Mitigation:
 * Never invent skills or experience.
 * Allow users to review and edit before downloading.
 
-# 16. Future Roadmap
+# 17. Future Roadmap
 
 ## Phase 2
 
@@ -309,7 +313,7 @@ Mitigation:
 * Personalized job search strategy
 * Weekly application reports
 
-# 17. Open Questions
+# 18. Open Questions
 
 1. How should the system fetch job descriptions (manual paste vs. integrations)?
 2. What factors should contribute to the match score (skills, experience, location, seniority, domain)?
