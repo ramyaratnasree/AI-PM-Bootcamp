@@ -72,9 +72,9 @@ Open dozens of job descriptions
 ↓
 Read each job description
 ↓
-Compare skills manually
-↓
 Wonder if qualified
+↓
+Compare skills manually
 ↓
 Modify resume
 ↓
@@ -84,7 +84,6 @@ Wait
 ↓
 Repeat
 
----
 # 7. Pain Points
 
 ## Pain 1
@@ -125,7 +124,7 @@ As a job seeker,
 I want to upload my resume
 so the system understands my experience.
 
-### Story 2
+### Story 2 (Not in MVP)
 As a job seeker,
 I want to define my preferences
 so only relevant jobs are recommended.
@@ -137,14 +136,14 @@ Examples:
 * Role
 * Industry
 
-### Story 3
+### Story 3 (Not in MVP)
 As a job seeker,
 I want AI to recommend matching jobs
 so I don't waste time searching manually.
 
 ### Story 4
 As a job seeker,
-I want to understand why a job matches
+I want to paste job description and understand why a job matches
 so I can confidently decide whether to apply.
 
 ### Story 5
@@ -167,14 +166,14 @@ so I can immediately apply.
 * Resume Upload
 * Resume Parsing
 * Extract Skills
-* Capture User Preferences
-* Import Job Description
+* Paste Job Description
 * Match Resume vs JD
 * Match Score
 * Missing Skills
 * Tailored Resume
 
 ## Not Included
+* Capture User Preferences
 * Interview preparation
 * Cover letter generation
 * Application tracking
@@ -196,21 +195,11 @@ System extracts:
 * Projects
 * Certifications
 
-### Preference Collection
-Capture:
-
-* Role
-* Location
-* Remote/Hybrid
-* Salary
-* Experience Level
-
 ### Job Matching
 
 Input
 
 * Resume
-* Preferences
 * Job Description
 
 Output
@@ -249,15 +238,11 @@ Upload Resume
 ↓
 AI extracts profile
 ↓
-Set Preferences
-↓
-Fetch Jobs
-↓
-Rank Jobs
+Paste Job description
 ↓
 View Match Report
 ↓
-Select Job
+Saves/shortlists jobs
 ↓
 Generate Tailored Resume
 ↓
@@ -305,6 +290,7 @@ Mitigation:
 
 ## Phase 2
 
+* User preferences
 * Auto-import jobs from LinkedIn/Naukri
 * Cover letter generation
 * Resume version management
