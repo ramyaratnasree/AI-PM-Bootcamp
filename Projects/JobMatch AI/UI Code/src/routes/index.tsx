@@ -252,19 +252,22 @@ function Index() {
             <div className="grid gap-6 md:grid-cols-[1fr_2fr]">
               <MatchScoreCard score={result.matchScore} />
               <SummaryCard summary={result.summary} />
-              <SkillsCard
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">             
+                <SkillsCard
                 title="Matching skills"
                 description="Found in both your resume and the job description"
                 skills={result.matchingSkills}
                 variant="success"
-              />
-            </div>
+        
+           />
             <SkillsCard
               title="Missing skills"
               description="Mentioned in the job description but missing from your resume"
               skills={result.missingSkills}
               variant="warning"
             />
+             </div>
             <ImprovementCard suggestions={result.improvementSuggestions} />
           
           </section>
