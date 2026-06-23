@@ -1,15 +1,22 @@
 # Persona 1 — Sarah (Laid Off PM)
 ## Basic Information
 Name: Sarah Chen
+
 Age: 31
+
 Role: Product Manager
+
 Experience: 6 years
+
 Current Situation:
 * Recently laid off from a SaaS startup
 * Applying full-time to AI Product Manager roles
 * Applies to 15–20 jobs every week
 * Has time but feels overwhelmed
-Uses: LinkedIn, Naukri, Wellfound, ChatGPT, Google Docs
+  
+Uses: 
+LinkedIn, Naukri, Wellfound, ChatGPT, Google Docs
+
 Goals:
 * Land interviews as quickly as possible
 * Focus only on jobs she's qualified for
@@ -23,6 +30,7 @@ Frequently wonders:
 * "Should I even apply?"
 * "Which skills am I missing?"
 * Application process takes 20–30 minutes per job
+  
 Motivation:
 "I want to spend my time interviewing—not rewriting my resume."
 

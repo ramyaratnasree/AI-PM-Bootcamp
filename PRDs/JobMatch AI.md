@@ -1,15 +1,10 @@
 # Product Requirements Document (PRD)
-
 # JobMatch AI
+**Version**: v1.0 (MVP)
 
-# Version
-v1.0 (MVP)
+**Author**: Ramya Ratna Sree Athukuri
 
-# Author
-Ramya Ratna Sree Athukuri
-
-# Status
-Draft
+**Status**: Draft
 
 # 1. Problem Statement
 Job seekers spend significant time searching for jobs, reading lengthy job descriptions, evaluating whether they are qualified, tailoring resumes, and applying to positions with uncertain chances of getting shortlisted.
