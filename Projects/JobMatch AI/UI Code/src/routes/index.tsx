@@ -251,6 +251,7 @@ function Index() {
             <RecommendationHero result={result} />
             <div className="grid gap-6 md:grid-cols-[1fr_2fr]">
               <MatchScoreCard score={result.matchScore} />
+              <SummaryCard summary={result.summary} />
               <SkillsCard
                 title="Matching skills"
                 description="Found in both your resume and the job description"
@@ -265,12 +266,12 @@ function Index() {
               variant="warning"
             />
             <ImprovementCard suggestions={result.improvementSuggestions} />
-            <SummaryCard summary={result.summary} />
+          
           </section>
         )}
 
         <footer className="mt-20 text-center text-xs text-muted-foreground">
-          Built with Lovable AI · Your resume is processed in this session and not stored.
+          Built with Lovable AI.
         </footer>
       </div>
     </div>
